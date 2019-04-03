@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  margin: 0 0 20px;
+}
+
+h5 {
+  margin: 0 0 20px;
+}
+
+input{
+  width: 370px;
+  color: white;
+  margin: 3px 0;
+  height: 30px;
+  font-size: 16px;
+  padding: 0 10px;
+  background-color: #282c34;
+  border: none;
+  border-bottom: 1px solid #afbacf;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  margin: 10px 0;
+  border-radius:  6px;
+  font-size: 16px;
+}
+
+.individual-friend-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: none;
+  height: 240px;
+  margin: 10px 0;
+  background-color: #3c424e;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.individual-friend-wrapper:last-child {
+  margin-bottom: 50px;
+}
+.individual-friend-wrapper span {
+  font-weight: bold;
+}
